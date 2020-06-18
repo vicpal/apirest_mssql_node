@@ -1,0 +1,22 @@
+{
+  "name": "webserver_mssql",
+  "version": "1.0.0",
+  "description": "Servidor para Pruebas",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=3000 nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Víctor Palomino N <vjpalomonet@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^5.21.13",
+    "tedious": "^8.3.0",
+    "tedious-connection-pool": "^1.0.5"
+  }
+}
